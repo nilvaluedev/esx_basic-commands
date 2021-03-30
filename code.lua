@@ -95,6 +95,6 @@ RegisterCommand('kick', function(source, args, rawCommand)
             xPlayer.showNotification('You should pass a number (Player Server ID) in order to use this command.')
         end
     else
-        xPlayer.showNotification('You did not passed any argument so we do not know who you want to bring.')
+        xPlayer.showNotification('You did not passed any argument so we do not know who you want to kick.')
     end
 end)
